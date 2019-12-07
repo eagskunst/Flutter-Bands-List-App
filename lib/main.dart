@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_test_app/custom_background.dart';
 
 void main() => runApp(MyApp());
 
@@ -46,7 +47,13 @@ class HomeScreen extends StatelessWidget {
         elevation: 0.0,
         backgroundColor: Color(0xFFD299C2),
       ),
-      body: Container(),
+      body: Container(
+        child: CustomBackground(
+            gradientColors: [
+          Color(0xFFD299C2),
+          Color(0xFFfef9d7)
+        ]),
+      ),
       floatingActionButton: Builder(builder: (BuildContext context){
         return FloatingActionButton(
           child: Icon(Icons.vpn_key),
