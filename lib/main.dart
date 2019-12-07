@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_movie_test_app/band_card.dart';
+import 'package:flutter_movie_test_app/band_card_list.dart';
 import 'package:flutter_movie_test_app/custom_background.dart';
 
 void main() => runApp(MyApp());
@@ -56,11 +56,7 @@ class HomeScreen extends StatelessWidget {
                   Color(0xFFD299C2),
                   Color(0xFFfef9d7)
                 ]),
-            BandCard(
-                image: "http://s3.amazonaws.com/quietus_production/images/articles/26699/the_beatles_1561392384_crop_550x369.jpg",
-                bandName: "The Beatles",
-                bandYears: "1963-1970"
-            )
+            BandCardList()
           ],
         ),
       ),
