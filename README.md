@@ -1,6 +1,6 @@
 # flutter_movie_test_app
 
-Flutter Movie list.
+Flutter Movie list. Check the commits for the steps and the final app.
 
 ## Getting Started
 
